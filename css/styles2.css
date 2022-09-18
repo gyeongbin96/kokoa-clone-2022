@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import "reset.css";
+@import "varlables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+   /* screens */
+@import "screens/login.css";
+
+body {
+font-family: "Open Sans", sans-serif;
+}
+.status-bar__column {
+   margin-top: 30px;
+}
+
+.status-bar__column span {
+   font-size: 25px;
+}
+.status-bar {
+   margin: 0px 10px;
+}
+
+.yellow {
+   background-color: #ffce32;
+   height: 150px;
+}
+.search_container {
+   height: 70px;
+   margin: 0px 20px;
+   border-radius: 300px;
+   background-color: white;
+   box-shadow: 0px 1px 10px;
+   transform: translateY(-50%);
+}
+
+.box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   margin: 0px 40px;
+   color: rgba(0,0,0,0.3);
+}
+.top {
+   margin: 20px 20px;
+   font-size: 40px;
+   font-weight: 600;
+}
+.book {
+   margin: 20px 20px;
+   font-size: 40px;
+   font-weight: 600;
+}
+.image_first {
+   background-color: #ffce32;
+   height: 200px;
+   width: 150px;
+   margin: 0px 20px;
+}
+.image_first_container {
+   display: flex;
+}
+.span_first {
+   display: flex;
+   flex-direction: column; 
+   width: 300px;
+   margin: 10px 10px;
+}
+.span_first span {
+   margin-bottom: 20px;
+}
+.star {}
+span.top-span1 {
+   font-size: 30px;
+}
+span.top-span2 {
+   font-size: 20px;
+   font-weight: 200;
+   color: rgba(0,0,0,0.3);
+}
+.btn {
+   display: flex;
+   text-align: center;
+   width: 300px;
+   height: 50px;
+   margin-top: 20px;
+
+}
+.btn_first {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(174, 174, 174);
+   width: 300px;
+   height: 40px;
+   margin-right: 20px;
+   border-radius: 10px;
+}
+.btn_first span {
+   margin-bottom: 2px;
+}
+
+
+.image_center {
+   background-color: #ffce32;
+   height: 150px;
+   width: 105px;
+   margin: 20px 20px;
+}
+.star_center_first {
+   margin: 20px;
+}
+.center_container {
+   display: flex;
+}
